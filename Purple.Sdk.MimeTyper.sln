@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purple.Sdk.MimeTyper", "Purple.Sdk.MimeTyper\Purple.Sdk.MimeTyper.csproj", "{3EE0EF8A-FB1D-4898-A153-8E38406A1021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purple.Sdk.MimeTyper.Tests", "Purple.Sdk.MimeTyper.Tests\Purple.Sdk.MimeTyper.Tests.csproj", "{4EFB1556-7BBD-4A3A-A4B6-F7A6072B0ECB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EE0EF8A-FB1D-4898-A153-8E38406A1021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE0EF8A-FB1D-4898-A153-8E38406A1021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE0EF8A-FB1D-4898-A153-8E38406A1021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE0EF8A-FB1D-4898-A153-8E38406A1021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EFB1556-7BBD-4A3A-A4B6-F7A6072B0ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFB1556-7BBD-4A3A-A4B6-F7A6072B0ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFB1556-7BBD-4A3A-A4B6-F7A6072B0ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFB1556-7BBD-4A3A-A4B6-F7A6072B0ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F5DA53B-BF46-4866-8A4D-D27FC16EF054}
+	EndGlobalSection
+EndGlobal
