@@ -2,6 +2,51 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Purplesoft Team</Authors>
+    <Company>Purplesoft Srl</Company>
+    <Description>.NET MimeType Helper with realtime update from apache docs main git trunk
+
+namespace Purple.Sdk.MimeTyper.Tests
+{
+    public class MimeTyperTests
+    {
+        [Fact]
+        public async Task GetExtensionFromMimeType()
+        {
+            var downloader = new MimeTyper();
+            var ext = await downloader.GetExtensionFromMimeType("image/jpeg");
+            Assert.Equal("jpeg", ext);
+        }
+
+        [Fact]
+        public async Task GetMimeTypeFromExtension()
+        {
+            var downloader = new MimeTyper();
+            var ext = await downloader.GetMimeTypeFromExtension("jpeg");
+            Assert.Equal("image/jpeg", ext);
+        }
+    }
+}</Description>
+    <PackageProjectUrl>https://www.purplesoft.io</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/purplesoft-io/Purple.Sdk.MimeTyper</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIcon>purp.png</PackageIcon>
+    <PackageTags>mime-types, mimetype, mime-type, mimetypes</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageId>MimeTyper</PackageId>
+    <Version>1.0.1</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="purp.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
 
 </Project>
